@@ -8,6 +8,7 @@
 
 1) MEDIA QUERIES WERE CHANGED FROM MAX-WIDTH: 992PX TO 847.5PX
 2) DELETED COLORS
+3) MEDIA QUERIES WERE CHANGED FROM MIN-WIDTH: 993PX TO 848PX
 
 */
 
@@ -475,13 +476,13 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   .hide-on-large-only {
     display: none !important
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   .show-on-large {
     display: block !important
   }
@@ -1028,7 +1029,7 @@ nav ul a span.badge {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   .container {
     width: 70%
   }
@@ -1537,7 +1538,7 @@ nav ul a span.badge {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   .row .col.l1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -1799,7 +1800,7 @@ nav .nav-wrapper {
   height: 100%
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   nav a.button-collapse {
     display: none
   }
@@ -2424,7 +2425,7 @@ small {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   #toast-container {
     top: 10%;
     right: 7%;
@@ -2482,7 +2483,7 @@ small {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 848px) {
   .toast {
     float: right
   }
